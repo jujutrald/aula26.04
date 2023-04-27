@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: aqua;
+}
+.container {
+    display: flex;
+}
+.janela1 {
+    align-items: center;
+    color: white;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+}
+.janela2 {
+    align-items: center;
+    color: white;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(26, 26, 47);
+}
+h1 {
+    color: rgb(30, 77, 118);
+}
+@media (max-width:650px) {
+    body {
+        background-color: chartreuse;
+    }
+    div {
+        background-color: blue;
+    }
+    h1 {
+        text-align: center;
+        font-family: monospace;
+    }
+}
+.container {
+    flex-wrap: wrap;
+}
